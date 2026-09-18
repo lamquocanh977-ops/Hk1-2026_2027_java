@@ -34,7 +34,7 @@ public class CDList {
 		for(int i = 0; i< soLuong; i++)
 			if(danhSachCD[i].getMaCD() == maCD)
 				return i;
-		return maCD;
+		return -1;
 		
 	}
 	public boolean themCD(CD cd) {
