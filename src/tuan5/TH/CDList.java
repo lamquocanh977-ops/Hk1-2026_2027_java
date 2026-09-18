@@ -146,7 +146,11 @@ public void hienThiDanhSach() {
 	System.out.println("\n+------------+-----------------------------------+-------------------+-------------+-----------+");
 	System.out.println("|   Ma CD   |            Tua CD              | So Bai Hat   |   Gia Thanh |");
 	System.out.println("\n+------------+-----------------------------------+-------------------+-------------+-----------+");
-	
+	for (int i = 0; i < soLuong; i++) {
+        System.out.println(danhSachCD[i]);
+    }
+    
+    System.out.println("+------------+-----------------------------------+-------------------+-------------------+");
 }
 public void sapXepGiamDanTheoGia() {
 	for(int i = 0; i < soLuong - 1; i++) 
